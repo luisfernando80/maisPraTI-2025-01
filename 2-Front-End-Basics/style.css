@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #e4e4e4;
+  border-radius: 11px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 0.9rem 0.6rem rgb(225, 225, 225);
+
+  & h2 {
+    text-align: center;
+  }
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+
+  & input::placeholder {
+    color: rgb(212, 211, 211);
+  }
+}
+
+button {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: 0;
+  padding: 6px 15px;
+  border-radius: 4px;
+  width: 90px;
+  align-self: center;
+
+  &:hover {
+    background-color: rgb(67, 67, 229);
+  }
+}
